@@ -1,7 +1,7 @@
 var bernoulli = bernoulli || {};
 
 (function(ns) {
-    var baseUrl = 'http://localhost:5000/client/api/experiments/?';
+    var baseUrl = 'https://bernoulli.herokuapp.com/client/api/experiments/?';
 
     var makeJsonpRequeset = function(options) {
         var strs = [];
